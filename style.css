@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+body {
+  font-family: "Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#top {
+  background: url("./images/bg-pattern-top-desktop.svg") no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 362px;
+  width: 584px;
+}
+
+#bot {
+  background: url("./images/bg-pattern-bottom-desktop.svg") no-repeat;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 673px;
+  width: 1085px;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px 100px 0;
+}
+
+.top-container h1 {
+  color: #502050;
+  width: 270px;
+}
+
+.top-container p {
+  width: 70%;
+}
+
+.text-review {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+}
+
+.costumer-review {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0% 15px;
+  width: 80%;
+  background-color: #f7f2f7;
+  padding: 15px 10px;
+  border-radius: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stars {
+  margin-left: 15px;
+}
+
+.rated_from {
+  margin-right: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #502050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bot_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 50px 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.review_box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  background-color: #502050;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.user_side_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user_side_data p {
+  font-size: 13px;
+  margin: 5px;
+}
+
+.image_user {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 2 20;
+          flex: 1 2 20;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://h.top4top.io/p_1724e0put1.png");
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.username_box {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 0px;
+          flex: 2 1 0;
+  margin-left: 15px;
+}
+
+.name {
+  color: #f7f2f7;
+  font-weight: 500;
+}
+
+.work {
+  color: #937b92;
+  font-weight: 600;
+}
+
+.review_text {
+  font-size: 13px;
+  color: #f7f2f7;
+}
+
+@media (max-width: 500px) {
+  .top-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 30px 60px 0;
+    text-align: center;
+  }
+  .top-container p {
+    width: 100%;
+  }
+  .bot_section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
